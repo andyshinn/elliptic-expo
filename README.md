@@ -2,7 +2,11 @@
 
 [![Saucelabs Test Status](https://saucelabs.com/browser-matrix/gh-indutny-elliptic.svg)](https://saucelabs.com/u/gh-indutny-elliptic)
 
-Fast elliptic-curve cryptography in a plain javascript implementation.
+Fast elliptic-curve cryptography in a plain javascript implementation. This is a fork 
+of Fedor Indutny's `elliptic` package, with several minor changes to make it compatible with 
+Expo (Expo.io). Primarily, random number functions from `brorand` are replaced 
+with `forge.random.getBytesSync` from `node-forge` and we also use the npm `buffer` module. 
+Alternatively, we could use `expo-random` for random bytes (we are considering this).
 
 NOTE: Please take a look at http://safecurves.cr.yp.to/ before choosing a curve
 for your cryptography operations.
