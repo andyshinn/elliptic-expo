@@ -1,4 +1,4 @@
-# Elliptic
+# Elliptic-Expo
 
 Fast elliptic-curve cryptography in a plain javascript implementation. This is a fork 
 of Fedor Indutny's `elliptic` package, with several minor changes to make it compatible with 
