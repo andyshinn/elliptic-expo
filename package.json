@@ -48,13 +48,13 @@
   },
   "dependencies": {
     "benchmark": "^2.1.4",
-    "bn.js": "^4.4.0",
+    "bn.js": "^5.1.1",
     "buffer": "^5.4.3",
-    "node-forge": "^0.9.1",
     "hash.js": "^1.0.0",
     "hmac-drbg": "^1.0.0",
     "inherits": "^2.0.1",
     "minimalistic-assert": "^1.0.0",
-    "minimalistic-crypto-utils": "^1.0.0"
+    "minimalistic-crypto-utils": "^1.0.0",
+    "node-forge": "^0.9.1"
   }
 }

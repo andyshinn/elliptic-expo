@@ -59,9 +59,9 @@ describe('ECDSA', function() {
         assert(ecdsa.verify(msg, signature, copy), 'hex-private verify');
       });
 
-      it('should have `signature.s <= keys.ec.nh`', function() {
+      it('JAN should have `signature.s <= keys.ec.nh`', function() {
         // key.sign(msg, options)
-        var sign = keys.sign('hello', { canonical: true });
+        var sign = keys.sign('deadbeef', { canonical: true });
         assert(sign.s.cmp(keys.ec.nh) <= 0);
       });
 
